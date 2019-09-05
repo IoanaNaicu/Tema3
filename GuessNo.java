@@ -13,7 +13,7 @@ public class GuessNo {
         int randomNumber = rand.nextInt(10);     //am dat o limita pentru a nu genera numere prea mari
         System.out.println("Numarul random este:" + randomNumber);
 
-        int nrIncercari = 3;
+        int nrIncercari = 4;  //prima incercare si 3 reluari
 
 
         for (int i = 0; i < nrIncercari; i++) {
